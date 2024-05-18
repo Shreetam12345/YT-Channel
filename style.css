@@ -11,8 +11,11 @@ h1{
 h2{
     opacity: 0.7;
 }
-h4{
+h3{
     opacity: 0.6;
+}
+h4{
+    opacity: 0.8;
 }
 body{
     overflow-x: hidden;
@@ -47,7 +50,7 @@ html,body{
     justify-content: space-between;
     padding: 10px 20px;
 }
-#nav i{
+#nav h2{
     cursor: pointer;
 }
 #page2{
@@ -166,18 +169,49 @@ html,body{
 }
 #explore {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 20px;
     max-width: 100%; 
     padding: 20px;
     /* border: 2px 2px solid black; */
 }
-
+#explore p{
+    height: 100%;
+    width: 40%;
+    padding: 40px;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 2vh;
+}
 #explore img {
     max-width: calc(50% - 20px); 
-    border: 1px 1px solid white;
+    /* border: 4px 4px solid white; */
+}
+.one{
+    float: left;
+    padding-left: 5vw;
+}
+.two{
+    float: right;
+    padding-right: 5vw;
+}
+.three{
+    float: left;
+    padding-left: 5vw;
+}
+.four{
+    float: right;
+    padding-right: 5vw;
+}
+.five{
+    float: left;
+    padding-left: 5vw;
+}
+.six{
+    float: right;
+    padding-right: 5vw;
 }
 #support{
     display: flex;
