@@ -141,8 +141,6 @@ html,body{
     flex: 0 0 48%;
     margin-bottom: 20px;
 }
-
-
 @media screen and (max-width: 768px) {
     #videos {
         flex-direction: column; 
